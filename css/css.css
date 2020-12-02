@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../img/bg.jpg) fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    font-family: Raleway;
+
+}
+.fon {
+    background-color: rgba(0,0,0,.3);
+    height: 100%;
+    width: 100%;
+}
+.container  {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.title {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 2px 3px #222;
+    font-size: 37px;
+    line-height: 44px;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work {
+    margin-top: 2%;
+    margin-bottom: 8%; 
+}
+/*Бордер с кругом*/
+.image {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+    display: block;
+    max-width: 200px;
+    margin-bottom: 30px;    
+}
+.image:hover {
+    /* border: 10px solid #2396f3; */
+    border-radius: 30px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.image {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+.image:hover {
+    -webkit-filter: brightness(60%);
+}
+.btn-link {
+    text-align: center;
+    color: #2396f3;
+    text-decoration: none;
+    border: 1px solid #2396f3;
+    padding: 8px 23px;
+    border-radius: 20px;
+    margin: auto;
+    width: 150px;
+    display: block;
+    transition-duration: 0.5s;
+}
+.btn-link:hover {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #2396f3;
+    padding: 8px 23px;
+    border-radius: 20px;
+    margin: auto;
+    width: 150px;
+    display: block;
+    transition-duration: 0.5s;
+}
+.footer {
+    background-color: #2396f3;
+    opacity: 0.7;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.end {
+    color: #fff;   
+    text-align: center;
+    margin: 0;
+    padding: 1%;    
+    opacity: 1;
+}
